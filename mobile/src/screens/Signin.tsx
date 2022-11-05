@@ -10,7 +10,7 @@ import { Button } from "../components/Button";
 export function Signin() {
     const { signIn, user } = useAuth();
 
-    console.log('DADOS DO USUÁRIO => ', user);
+    // console.log('DADOS DO USUÁRIO => ', user);
 
     return(
         <Center flex={1} bgColor="gray.900" p={7}>
