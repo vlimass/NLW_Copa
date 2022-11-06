@@ -33,7 +33,6 @@ export function Pools() {
                 placement: 'top',
                 bgColor: 'red.500',
             });
-
         } finally {
             setIsLoading(false);
         }

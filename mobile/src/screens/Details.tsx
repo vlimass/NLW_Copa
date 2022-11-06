@@ -11,6 +11,7 @@ import { PoolCardProps } from "../components/PoolCard";
 import { PoolHeader } from "../components/PoolHeader";
 import { EmptyMyPoolList } from "../components/EmptyMyPoolList";
 import { Option } from "../components/Option";
+import { Guesses } from "../components/Guesses";
 
 
 interface RouteParams {
@@ -87,6 +88,7 @@ export function Details() {
                             onPress={() => setOptionSelected('ranking')}
                         />
 
+                        <Guesses poolId={poolDetails.id} code={poolDetails.code}/>
                     </HStack>
 
 
